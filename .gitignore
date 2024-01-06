@@ -1,0 +1,3 @@
+*.mid
+Bastien/*
+!Bastien/*.ly
