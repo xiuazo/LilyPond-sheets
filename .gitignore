@@ -1,3 +1,2 @@
-*.mid
-Bastien/*
-!Bastien/*.ly
+*
+!*.ly
