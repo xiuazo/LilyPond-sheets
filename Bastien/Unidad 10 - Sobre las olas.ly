@@ -41,14 +41,14 @@ lower = \relative c {
   \global
   \clef bass
   \set fingeringOrientations = #'(down)
-  % music goes here
-  r4\sustainOn <c e g>\staccato q\staccato\sustainOff | R1*3/4 | r4\sustainOn q\staccato q\staccato | q\staccato\sustainOff r r |
-  c\sustainOn ( <e g>\sustainOff ) r | c\sustainOn ( <e g>\sustainOff ) r4 | r4\sustainOn <d-4 f-2 g-1>\staccato q\staccato | q\staccato\sustainOff r r |
-  r4\sustainOn q\staccato q\staccato\sustainOff | R1*3/4 | r4\sustainOn q\staccato q\staccato | q\staccato\sustainOff r r |
+
+  r4\sustainOn <c e g>-. q-.\sustainOff | R1*3/4 | r4\sustainOn q-. q-. | q-.\sustainOff r r |
+  c\sustainOn ( <e g>\sustainOff ) r | c\sustainOn ( <e g>\sustainOff ) r4 | r4\sustainOn <d-4 f-2 g-1>-. q-. | q-.\sustainOff r r |
+  r4\sustainOn q-. q-.\sustainOff | R1*3/4 | r4\sustainOn q-. q-. | q-.\sustainOff r r |
   d4-4\sustainOn ( <f-2 g-1>\sustainOff ) r | d\sustainOn ( q\sustainOff ) r | c-5\sustainOn g'-2 a | g\sustainOff r r |
-  r4 <c, e g>\staccato\sustainOn q\sustainOff | R1*3/4 | r4\sustainOn q\staccato q\staccato | q\staccato\sustainOff r r |
-  c\sustainOn ( <e g>\sustainOff ) r | c\sustainOn ( <e g>\sustainOff ) r | r\sustainOn <c-5 f-2 a-1>\staccato q\staccato | q\staccato\sustainOff r r |
-  r4\sustainOn q\staccato q\staccato\sustainOff | R1*3/4 | r4\sustainOn <c e g>\staccato q\staccato | q\staccato\sustainOff r r |
+  r4 <c, e g>-.\sustainOn q\sustainOff | R1*3/4 | r4\sustainOn q-. q-. | q-.\sustainOff r r |
+  c\sustainOn ( <e g>\sustainOff ) r | c\sustainOn ( <e g>\sustainOff ) r | r\sustainOn <c-5 f-2 a-1>-. q-. | q-.\sustainOff r r |
+  r4\sustainOn q-. q-.\sustainOff | R1*3/4 | r4\sustainOn <c e g>-. q-. | q-.\sustainOff r r |
   d-4 \sustainOn ( <f-2 g-1>\sustainOff ) r | g,\sustainOn r\sustainOff r | c\sustainOn g' e | c2. |
 
   \fine
